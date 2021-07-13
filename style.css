@@ -77,9 +77,9 @@ body{
 }
 
 .about-me-outer{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/417/673/89/black-texture-background-wallpaper-preview.jpg");
     height:30rem;
     width: 50rem;
-    background-color: black;
     position: relative;
 }
 
