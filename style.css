@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.container{
+    height:100vh;
+    background-color: gray;
+}
+
+.header{
+    position:relative;
+    height:10%;
+    background-color:black;
+}
+
+.menu-options{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60%;
+}
+
+.menu-options div{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.menu-options div:hover{
+    color: aquamarine;
+    transform: scale(1.15);
+}
+
+img {
+    position:absolute;
+    left:3%;
+    border-radius: 50%;
+    height: 70px;
+}
+
+img:hover{
+    transform: scale(1.15);
+}
+
+.about{
+    margin-left: 40px;
+}
+
+.resume{
+    margin-left: 40px;
+}
+
+.project{
+    margin-left: 40px;
+}
+
+.contact{
+    margin-left: 40px;
+}
+
+.menu-options div:hover{
+    font-size: 150%;
+}
+
+.content-page{
+    height: 80%;
+    background-color:gray;
+}
+
+.footer{
+    height:10%;
+    background-color:black;
+}
+
