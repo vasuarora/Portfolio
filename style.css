@@ -7,6 +7,7 @@ body{
 }
 
 .container{
+    position: relative;
     height:100vh;
     background-color: gray;
 }
@@ -69,10 +70,12 @@ body{
 }
 
 .content-page{
+    position: relative;
     height: 80%;
     background-color:#636e72;
     overflow: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -82,6 +85,7 @@ body{
     height:30rem;
     width: 50rem;
     position: relative;
+    border-radius: 12%;
 }
 
 .about-me-inner{
@@ -118,8 +122,21 @@ body{
     transform: translateY(-50%);
 }
 
-.my-skills{
-    color: white;
+.skill-outer-container{
+    position: absolute;
+    top:600px;
+    height: 30rem;
+    width: 50rem;
+    background-color: black;   
+}
+
+.skill-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .footer{
