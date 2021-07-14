@@ -29,10 +29,11 @@ body{
 .menu-options div{
     color:white;
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .menu-options div:hover{
-    color: aquamarine;
+    color: #55efc4;
     transform: scale(1.15);
 }
 
@@ -69,7 +70,7 @@ body{
 
 .content-page{
     height: 80%;
-    background-color:gray;
+    background-color:#636e72;
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -88,15 +89,24 @@ body{
     left:45%;
     top:11%;
     font-size: 1.5rem;
-    color: yellow;
+    color: #feca57;
     line-height: 1.8;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .about-me{
-    color: crimson;
+    font-family: 'Montserrat', sans-serif;
+    color: #e74c3c;
     font-weight: 600;
-    font-size: 2rem;
-    margin-left: 100px;
+    font-size: 2.5rem;
+    margin-left: 90px;
+}
+
+.about-me-inner span{
+    color: #00cec9;
+    font-family:'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 .my-self{
@@ -106,6 +116,10 @@ body{
     top:50%;
     left: 30px;
     transform: translateY(-50%);
+}
+
+.my-skills{
+    color: white;
 }
 
 .footer{
