@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 60%;
+    left: 63%;
 }
 
 .menu-options div{
@@ -246,8 +246,96 @@ body{
     height:auto;
 }
 
+.contact-outer-container{
+    position: absolute;
+    top:1800px;
+    height: 30rem;
+    width: 50rem; 
+}
+
+.contact-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.3rem;
+    color: #fad390;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 5%;
+}
+
+.contact-inner-container{
+    width: 100rem;
+    margin-top: 20px;
+    display: flex;
+}
+
+.phone-container,.email-container,.website-container{
+    position:relative;
+    margin: 20px;
+    height:15rem;
+    width:14rem;
+    background-color:black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-container{
+    width: 20rem;
+}
+
+.material-icons{
+    color:#e67e22;
+    font-size: 2.5rem!important;
+}
+
+.contact-number-heading{
+    color: #1abc9c;
+    font-family:'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.contact-number{
+    color: #eb2f06;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family:'DM Sans', sans-serif;
+}
+
+.email-heading{
+    color: #1abc9c;
+    font-family:'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.email-id{
+    color: #eb2f06;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family:'DM Sans', sans-serif;
+}
+
+.website-heading{
+    font-family:'DM Sans', sans-serif;
+    color: #1abc9c;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.website{
+    color: #eb2f06;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family:'DM Sans', sans-serif;
+}
+
 .footer{
     height:10%;
     background-color:black;
 }
-
