@@ -10,7 +10,7 @@ body{
 .container{
     position: relative;
     height:100vh;
-    background-color: gray;
+    background-color:black;
 }
 
 .header{
@@ -181,7 +181,7 @@ body{
 .education-heading{
     font-family: 'Rubik', sans-serif;
     font-size: 3.3rem;
-    color: #fad390;
+    color: #ff9f1a;
     text-align: left;
     margin-left: 15px;
     margin-top: 5%;
@@ -267,7 +267,7 @@ body{
 .skill-heading{
     font-family: 'Rubik', sans-serif;
     font-size: 3.3rem;
-    color: #fad390;
+    color: #ff9f1a;
     text-align: left;
     margin-left: 15px;
     margin-top: 5%;
@@ -307,7 +307,7 @@ body{
 .achievements-heading{
     font-family: 'Rubik', sans-serif;
     font-size: 3.3rem;
-    color: #fad390;
+    color: #ff9f1a;
     text-align: left;
     margin-left: 15px;
     margin-top: 5%;
@@ -322,14 +322,14 @@ body{
     background-color: #dfe6e9;
 }
 
-ul{
+.ach_list{
     list-style: square;
     position: absolute;
     top:20px;
     left:30px;
 }
 
-li{
+.h1,.h2,.h3{
     line-height: 1.6;
     font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
@@ -347,7 +347,7 @@ li{
 .contact-heading{
     font-family: 'Rubik', sans-serif;
     font-size: 3.3rem;
-    color: #fad390;
+    color: #ff9f1a;
     text-align: left;
     margin-left: 15px;
     margin-top: 5%;
@@ -428,7 +428,105 @@ li{
     font-family:'DM Sans', sans-serif;
 }
 
-.footer{
-    height:10%;
+.footer-container{
+    position: absolute;
+    top:3600px;
+    height: 22rem;
+    width: 100%; 
     background-color:black;
+}
+
+.social-links-heading{
+    position: absolute;
+    left:25%;
+    top:10%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.social-links{
+    margin-left:17.2rem;
+    margin-top: 7rem;
+    font-size: 2.2rem;
+}
+
+.social-links a{
+    margin: 15px;
+    color: white;
+}
+
+.social-links a:hover{
+    color: #0984e3;
+}
+
+.links-heading{
+    position: absolute;
+    left:50%;
+    top:10%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-links{
+    list-style: none;
+    position: absolute;
+    left:45%;
+    top:24%;
+}
+
+.footer-links li{
+    color: white;
+    font-size: 1.4rem;
+    font-family:'DM Sans', sans-serif;
+    line-height: 1.8;
+}
+
+.doubt-heading{
+    position: absolute;
+    left:75%;
+    top:10%;
+    transform: translateX(-50%);
+    font-family:'DM Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.doubt div{
+    color: white;
+    font-family:'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.phone-number{
+    position: absolute;
+    left:66rem;
+    top:7rem;
+}
+
+.phone-number .material-icons{
+    color: white;
+    position: absolute;
+    left: -50px;
+    font-size: 2.3rem!important;
+}
+
+.email-address{
+    position: absolute;
+    left:66rem;
+    top:11rem;
+}
+
+.email-address span{
+    color: white;
+    position: absolute;
+    left: -50px;
+    font-size:2.3rem!important;
 }

@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
     <title>Portfolio</title>
 </head>
 <body>
@@ -40,7 +43,8 @@
                         <div><span>Phone: </span>+91-9953265427</div>
                         <div><span>City: </span>Delhi</div>
                         <div><span>Country: </span>India</div>
-                        <button type="button" class="btn">Download Resume</button>
+                        <a href="https://drive.google.com/file/d/1MNS1-LXFkBmuhbTxpOAy7OpgC8U-8QjC/view?usp=sharing" 
+                        target="_blank"><button type="button" class="btn">Download Resume</button></a>
                     </div>
 
                 <img src="myself.jpg" class="my-self" alt="dp">
@@ -78,10 +82,10 @@
             <div class="achievements-heading">Achievements</div>
                 <div class="underline"></div>
                 <div class="achievements-inner-container">
-                    <ul>
-                        <li>Qualified in Smart India Hackathon 2020 (Internals).</li>
-                        <li>Solved 400+ DSA questions on Pepcoding.</li>
-                        <li>Solved 100+ Leetcode Questions.</li>
+                    <ul class="ach_list">
+                        <li class="h1">Qualified in Smart India Hackathon 2020 (Internals).</li>
+                        <li class="h2">Solved 400+ DSA questions on Pepcoding.</li>
+                        <li class="h3">Solved 100+ Leetcode Questions.</li>
                     </ul>
                 </div>
             </div>
@@ -107,8 +111,31 @@
                     </div>
                 </div>
             </div>
+
+            <div class="footer-container">
+                <div class="social-links-heading">Social Links</div>
+                <div class="social-links">
+                    <a href="https://github.com/vasuarora" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vasu-arora-3583281ab" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/vasu_arora21/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="links-heading">Links</div>
+                <div class="links">
+                    <ul class="footer-links">
+                        <li class="home-footer">Home</li>
+                        <li class="about-footer">About</li>
+                        <li class="resume-footer">Resume</li>
+                        <li class="project-footer">Project</li>
+                        <li class="contact-footer">Contact</li>
+                    </ul>
+                </div>
+                <div class="doubt-heading">Have A Question?</div>
+                <div class="doubt">
+                    <div class="phone-number"><span class="material-icons"> call </span>+91-9953265427</div>
+                    <div class="email-address"><span class="material-icons"> email </span>vasuarora2112@gmail.com</div>
+                </div>
+            </div>
         </div>
-        <div class="footer"></div>
     </div>
     <script src="script.js"></script>
 </body>
