@@ -460,6 +460,7 @@ body{
 
 .social-links a:hover{
     color: #0984e3;
+    transition: 0.2s;
 }
 
 .links-heading{
@@ -485,6 +486,12 @@ body{
     font-size: 1.4rem;
     font-family:'DM Sans', sans-serif;
     line-height: 1.8;
+}
+
+.footer-links li:hover{
+    cursor: pointer;
+    color: #0984e3;
+    transition: 0.2s;
 }
 
 .doubt-heading{

@@ -25,3 +25,27 @@ resume_btn.addEventListener("click",function(e){
 contact_btn.addEventListener("click",function(e){
     contact_section.scrollIntoView();
 })
+
+let home_fbtn=document.querySelector(".home-footer");
+
+let abt_fbtn=document.querySelector(".about-footer");
+
+let resume_fbtn=document.querySelector(".resume-footer");
+
+let contact_fbtn=document.querySelector(".contact-footer");
+
+home_fbtn.addEventListener("click",function(e){
+    home_section.scrollIntoView();
+})
+
+abt_fbtn.addEventListener("click",function(e){
+    abt_section.scrollIntoView();
+})
+
+resume_fbtn.addEventListener("click",function(e){
+    resume_section.scrollIntoView();
+})
+
+contact_fbtn.addEventListener("click",function(e){
+    contact_section.scrollIntoView();
+})
