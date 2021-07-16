@@ -10,9 +10,7 @@ body{
 .container{
     position: relative;
     height:100vh;
-    background-color:black;
 }
-
 
 .header{
     position:relative;
@@ -69,7 +67,7 @@ body{
 
 .content-page{
     position: relative;
-    height: 80%;
+    height: 90%;
     background-color:#242424;
     overflow: auto;
     display: flex;
@@ -203,7 +201,7 @@ body{
     height:25rem;
     border-radius: 20px;
     margin-top: 20px;
-    background-color: #dfe6e9;
+    background-color: #ecf0f1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,13 +243,13 @@ body{
 .percent{
     font-size: 1.6rem;
     font-weight: bold;
-    color: #130f40;
+    color: #0c2461;
 }
 
 .city{
     font-size: 1.6rem;
     font-weight: bold;
-    color: #130f40;
+    color: #c23616;
 }
 
 .city .material-icons{
@@ -264,7 +262,7 @@ body{
 .year{
     font-size: 1.6rem;
     font-weight: bold;
-    color: #130f40;
+    color: #c23616;
 }
 
 .year .material-icons{
@@ -300,7 +298,7 @@ body{
     height:25rem;
     border-radius: 20px;
     margin-top: 20px;
-    background-color: #dfe6e9;
+    /* background-color: #dfe6e9; */
 }
 
 .skill-inner-container img:hover{
@@ -336,7 +334,7 @@ body{
     height:25rem;
     border-radius: 20px;
     margin-top: 20px;
-    background-color: #dfe6e9;
+    /* background-color: #3A3A3A; */
 }
 
 .ach_list{
@@ -382,9 +380,14 @@ body{
     position:relative;
     margin: 30px;
     border-radius: 12px;
-    height: 380px;
+    height: 450px;
     width: 38%;
     background-color: #3A3A3A;
+}
+
+.p1:hover,.p2:hover,.p3:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 
 .p1 .material-icons,.p2 .material-icons,.p3 .material-icons{
@@ -392,7 +395,8 @@ body{
     left:50%;
     top:15px;
     transform: translateX(-50%);
-    font-size: 2.2rem!important;
+    font-size: 2.4rem!important;
+    color:limegreen;
 }
 
 .p1-heading,.p2-heading,.p3-heading{
@@ -403,6 +407,30 @@ body{
     font-family:'DM Sans', sans-serif;
     font-size: 1.3rem;
     color: white;
+    white-space: nowrap;
+}
+
+.line {
+    position: absolute;
+    top:22.5%;
+    left:50%;
+    transform: translateX(-50%);
+    width: 40px;
+    background-color: #feab00;
+    border: 1.1px solid;
+    border-color: #feab00;
+    margin-bottom: 10px;
+}
+
+.tech-used{
+    font-family:'DM Sans', sans-serif;
+    font-size: 1.1rem;
+    color:coral;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    top:28.5%;
 }
 
 .contact-outer-container{
