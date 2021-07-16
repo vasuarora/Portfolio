@@ -215,6 +215,10 @@ body{
     left:60px;
 }
 
+.college-name .material-icons{
+    color: black;
+}
+
 .degree{
     font-size: 1.6rem;
     font-weight: bold;
@@ -243,6 +247,7 @@ body{
     position: absolute;
     left:305px;
     font-size: 2rem!important;
+    color:#242424;
 }
 
 .year{
@@ -255,6 +260,7 @@ body{
     position: absolute;
     left:310px;
     font-size: 2rem!important;
+    color:#242424;
 }
 
 .skill-outer-container{
