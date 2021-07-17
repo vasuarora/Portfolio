@@ -69,7 +69,8 @@ body{
     position: relative;
     height: 90%;
     background-color:#242424;
-    overflow: auto;
+    overflow-y:scroll;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,11 +80,11 @@ body{
 .introduction-page{
     position: absolute;
     height:50rem;
-    width:100vw;
+    width:100%;
 }
 
 .hi-intro{
-    font-size:3rem;
+    font-size:2.5rem;
     color: white;
     position: absolute;
     left:10rem;
@@ -101,12 +102,25 @@ body{
     font-weight: bold;
 }
 
+.anime-pre{
+    position: absolute;
+    left:10rem;
+    top:17rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+    color:white;
+}
+
+.anime-pre span{
+    color: #55efc4;
+}
+
 .coder{
     height: 22rem;
     width: auto;
     position: absolute;
     left:66%;
-    top:7rem;
+    top:14rem;
 }
 
 #particles-js {
@@ -414,6 +428,7 @@ body{
     top:170px;
     line-height: 1.5;
     word-wrap:normal;
+    text-align: center;
 }
 
 .github-btn{
@@ -660,4 +675,3 @@ body{
     left: -50px;
     font-size:2.3rem!important;
 }
-
