@@ -153,7 +153,7 @@ body{
     font-size: 1.6rem;
 }
 
-.btn{
+.resume-btn{
     margin-top: 20px;
     width: 150px;
     height: 45px;
@@ -165,7 +165,7 @@ body{
     border: none;
 }
 
-.btn:hover{
+.resume-btn:hover{
     color: #dfe6e9;
     cursor: pointer;
     transition: 0.7s;
@@ -385,11 +385,6 @@ body{
     background-color: #3A3A3A;
 }
 
-.p1:hover,.p2:hover,.p3:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
 .p1 .material-icons,.p2 .material-icons,.p3 .material-icons{
     position: absolute;
     left:50%;
@@ -408,6 +403,38 @@ body{
     font-size: 1.3rem;
     color: white;
     white-space: nowrap;
+}
+
+.p1-description,.p2-description,.p3-description{
+    color:white;
+    font-family:'DM Sans', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    left:10px;
+    top:170px;
+    line-height: 1.5;
+    word-wrap:normal;
+}
+
+.github-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #feab00;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:370px;
+}
+
+.github-btn:hover{
+    color: #dfe6e9;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 .line {
@@ -523,7 +550,6 @@ body{
     line-height: 1.5;
     font-family:'DM Sans', sans-serif;
 }
-
 
 .footer-container{
     position: absolute;
