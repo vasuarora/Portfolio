@@ -112,7 +112,7 @@ body{
 }
 
 .anime-pre span{
-    color: #55efc4;
+    color: #0984e3;
 }
 
 .coder{
@@ -196,7 +196,7 @@ body{
 
 .education-outer-container{
     position: absolute;
-    top:1300px;
+    top:1450px;
     height: 30rem;
     width: 50rem;
 }
@@ -288,7 +288,7 @@ body{
 
 .skill-outer-container{
     position: absolute;
-    top:1900px;
+    top:2100px;
     height: 30rem;
     width: 50rem;  
 }
@@ -312,7 +312,6 @@ body{
     height:25rem;
     border-radius: 20px;
     margin-top: 20px;
-    /* background-color: #dfe6e9; */
 }
 
 .skill-inner-container img:hover{
@@ -328,7 +327,7 @@ body{
 
 .achievements-outer-container{
     position: absolute;
-    top:2500px;
+    top:2700px;
     height: 30rem;
     width: 50rem;
 }
@@ -348,7 +347,6 @@ body{
     height:25rem;
     border-radius: 20px;
     margin-top: 20px;
-    /* background-color: #3A3A3A; */
 }
 
 .ach_list{
@@ -368,7 +366,7 @@ body{
 
 .project-outer-container{
     position: absolute;
-    top:3100px;
+    top:3250px;
     height: 30rem;
     width: 50rem;
 }
@@ -477,7 +475,7 @@ body{
 
 .contact-outer-container{
     position: absolute;
-    top:4300px;
+    top:4450px;
     height: 30rem;
     width: 50rem; 
 }
@@ -568,7 +566,7 @@ body{
 
 .footer-container{
     position: absolute;
-    top:4900px;
+    top:5050px;
     height: 22rem;
     width: 100%; 
     background-color:black;
