@@ -5,6 +5,8 @@
 
 body{
     margin:0;
+    background-color: #242424;
+    overflow-x: hidden;
 }
 
 .container{
@@ -69,8 +71,6 @@ body{
     position: relative;
     height: 90%;
     background-color:#242424;
-    overflow-y:scroll;
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -515,12 +515,12 @@ body{
 }
 
 .material-icons{
-    color:#e67e22;
+    color:#55efc4;
     font-size: 2.5rem!important;
 }
 
 .contact-number-heading{
-    color: #1abc9c;
+    color:#feab00;
     font-family:'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -535,7 +535,7 @@ body{
 }
 
 .email-heading{
-    color: #1abc9c;
+    color: #feab00;
     font-family:'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -551,14 +551,14 @@ body{
 
 .website-heading{
     font-family:'DM Sans', sans-serif;
-    color: #1abc9c;
+    color: #feab00;
     font-weight: bold;
     font-size: 2rem;
     line-height: 2;
 }
 
 .website{
-    color: #eb2f06;
+    color:#eb2f06;
     font-size: 1.5rem;
     line-height: 1.5;
     font-family:'DM Sans', sans-serif;
@@ -566,7 +566,7 @@ body{
 
 .footer-container{
     position: absolute;
-    top:5050px;
+    top:5150px;
     height: 22rem;
     width: 100%; 
     background-color:black;
