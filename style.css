@@ -557,10 +557,20 @@ body{
     line-height: 2;
 }
 
+.website-container{
+    width:18rem;
+}
+
 .website{
+    word-wrap: break-word;
+}
+
+.website a{
+    text-decoration: none;
     color:#eb2f06;
     font-size: 1.5rem;
     line-height: 1.5;
+    word-wrap: normal;
     font-family:'DM Sans', sans-serif;
 }
 
