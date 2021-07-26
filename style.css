@@ -562,7 +562,7 @@ body{
 }
 
 .website{
-    word-wrap: break-word;
+    text-align: center;
 }
 
 .website a{
@@ -570,8 +570,10 @@ body{
     color:#eb2f06;
     font-size: 1.5rem;
     line-height: 1.5;
-    word-wrap: normal;
     font-family:'DM Sans', sans-serif;
+    word-break:break-all;
+    margin:5px;
+    text-align: center;
 }
 
 .footer-container{
