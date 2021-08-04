@@ -366,7 +366,7 @@ body{
 
 .project-outer-container{
     position: absolute;
-    top:3250px;
+    top:3150px;
     height: 30rem;
     width: 50rem;
 }
@@ -388,7 +388,7 @@ body{
     flex-wrap: wrap;
 }
 
-.p1,.p2,.p3{
+.p1,.p2,.p3,.p4,.p5{
     position:relative;
     margin: 30px;
     border-radius: 12px;
@@ -397,7 +397,7 @@ body{
     background-color: #3A3A3A;
 }
 
-.p1 .material-icons,.p2 .material-icons,.p3 .material-icons{
+.p1 .material-icons,.p2 .material-icons,.p3 .material-icons,.p4 .material-icons,.p5 .material-icons{
     position: absolute;
     left:50%;
     top:15px;
@@ -406,7 +406,7 @@ body{
     color:limegreen;
 }
 
-.p1-heading,.p2-heading,.p3-heading{
+.p1-heading,.p2-heading,.p3-heading,.p4-heading,.p5-heading{
     position: absolute;
     left:50%;
     top:70px;
@@ -417,7 +417,7 @@ body{
     white-space: nowrap;
 }
 
-.p1-description,.p2-description,.p3-description{
+.p1-description,.p2-description,.p3-description,.p4-description,.p5-description{
     color:white;
     font-family:'DM Sans', sans-serif;
     font-size: 1rem;
@@ -475,7 +475,7 @@ body{
 
 .contact-outer-container{
     position: absolute;
-    top:4450px;
+    top:4900px;
     height: 30rem;
     width: 50rem; 
 }
@@ -578,7 +578,7 @@ body{
 
 .footer-container{
     position: absolute;
-    top:5150px;
+    top:5550px;
     height: 22rem;
     width: 100%; 
     background-color:black;
